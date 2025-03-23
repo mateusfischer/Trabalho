@@ -6,43 +6,72 @@
     <title>pagina principal</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f4f8;
         }
         header {
-            background-color: #333;
+            background: linear-gradient(90deg, #4b6cb7, #182848);
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 30px;
         }
         main {
-            padding: 20px;
+            padding: 40px;
             background-color: white;
             margin: 20px;
             border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #45a049;
         }
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             background-color: #333;
             color: white;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
+        footer a {
+            color: #ff8c00;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>bem-vindo a minha pagina principal</h1>
+    <h1>bem-vindo a minha pagina</h1>
 </header>
 
 <main>
-    <h2>sobre esta pagina</h2>
-    <p>esta pagina foi criado para ser o objetivo do meu trabalho.</p>
+    <h2>sobre a pagina</h2>
+    <p>foi criada como objetivo do meu trabalho.</p>
+    <a href="#" class="btn">Click Me!</a>
 </main>
 
 <footer>
