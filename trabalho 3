@@ -3,55 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ultima pagina</title>
+    <title>Ultima pagina!</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f3f4f6;
+            background-color: #e0f7fa;
         }
         header {
-            background-color: #6200ea;
+            background: linear-gradient(90deg, #4caf50, #81c784);
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 30px 0;
         }
         main {
-            padding: 20px;
+            padding: 30px;
             text-align: center;
         }
         .btn {
-            background-color: #6200ea;
+            background-color: #ff9800;
             color: white;
-            padding: 10px 20px;
+            padding: 15px 30px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            font-size: 18px;
         }
         .btn:hover {
-            background-color: #3700b3;
+            background-color: #f57c00;
         }
         footer {
             text-align: center;
-            padding: 10px;
-            background-color: #6200ea;
+            padding: 15px;
+            background-color: #424242;
             color: white;
+        }
+        footer a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>ola!</h1>
+    <h1>esta é a ultima pagina!</h1>
 </header>
 
 <main>
-    <p>esta é a ultima pagina</p>
-    <a href="#" class="btn">Click Me</a>
+    <p>esta sera a ultima pagina!</p>
+    <a href="#" class="btn">Click Here</a>
 </main>
 
 <footer>
-    <p>Minha pagina</p>
+    <p>minha pagina</a></p>
 </footer>
 
 </body>
