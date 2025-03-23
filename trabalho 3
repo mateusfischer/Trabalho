@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ultima pagina</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        header {
+            background-color: #6200ea;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .btn {
+            background-color: #6200ea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #3700b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6200ea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>ola!</h1>
+</header>
+
+<main>
+    <p>esta é a ultima pagina</p>
+    <a href="#" class="btn">Click Me</a>
+</main>
+
+<footer>
+    <p>Minha pagina</p>
+</footer>
+
+</body>
+</html>
