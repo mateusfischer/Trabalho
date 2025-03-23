@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina principal</title>
+    <title>minha paginae</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>bem-vindo a minha pagina</h1>
+        <h1>esta é minha pagina</h1>
     </header>
     
     <main>
         <section class="content">
-            <p id="message">esta pagina foi criada usando html5</p>
+            <p id="message">esta é a ultima versao da pagina</p>
             <button onclick="changeText()">mudar texto</button>
         </section>
     </main>
 
     <footer>
-        <p>&copy;minha pagina.</p>
+        <p>&copy; minha pagina.</p>
     </footer>
 
     <script src="script.js"></script>
