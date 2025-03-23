@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starter Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Starter Web Page</h1>
+        <p id="message">This is a simple web page to get started with HTML, CSS, and JavaScript.</p>
+        <button onclick="changeText()">Click me to change the text</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
