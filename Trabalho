@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Welcome to My Starter Web Page</h1>
-        <p id="message">This is a simple web page to get started with HTML, CSS, and JavaScript.</p>
-        <button onclick="changeText()">Click me to change the text</button>
-    </div>
+    </header>
+    
+    <main>
+        <section class="content">
+            <p id="message">This is a simple web page to get started with HTML5, CSS, and JavaScript.</p>
+            <button onclick="changeText()">Click me to change the text</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Web Page. All Rights Reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
